@@ -1,10 +1,10 @@
-# gatsby-source-airtable
+# gatsby-source-airtables
 
-Gatsby source plugin for pulling rows from an Airtable.
+Gatsby source plugin for pulling rows from multiple Airtables.
 
 ## Install
 
-`npm install --save gatsby-source-airtable`
+`npm install --save gatsby-source-airtables`
 
 ## How to use
 
@@ -12,7 +12,7 @@ Gatsby source plugin for pulling rows from an Airtable.
 // In gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-airtable`,
+    resolve: `gatsby-source-airtables`,
     options: {
       apiKey: `YOUR_AIRTABLE_KEY`,
       baseId: `YOUR_AIRTABLE_BASE_ID`,
